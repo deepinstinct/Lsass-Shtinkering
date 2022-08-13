@@ -3,9 +3,8 @@
 int main(int argc, char* argv[])
 {
 
-	DWORD processPid = GetCurrentProcessId();
+	DWORD processPid;
 	HANDLE processHandle;
-	DuplicateHandle(GetCurrentProcess(), GetCurrentProcess(), GetCurrentProcess(), &processHandle, PROCESS_VM_READ | PROCESS_QUERY_LIMITED_INFORMATION, TRUE, NULL);
 
 	try
 	{
