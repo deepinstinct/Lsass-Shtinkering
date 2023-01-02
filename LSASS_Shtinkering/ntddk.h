@@ -4,7 +4,7 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
-#include <Windows.h>
+#include <windows.h>
 
 #ifndef _NTDLL_SELF_                            // Auto-insert the library
 #pragma comment(lib, "Ntdll.lib")

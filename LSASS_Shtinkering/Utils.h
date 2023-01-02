@@ -2,7 +2,7 @@
 #include <string>
 #include <stdexcept>
 #include <iostream>
-#include <Windows.h>
+#include <windows.h>
 #include <tlhelp32.h>
 
 using std::endl;
